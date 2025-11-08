@@ -3,16 +3,11 @@ name: Deploy VitePress site to Pages
 on:
   push:
     branches: [main]
-  workflow_dispatch:
 
 permissions:
   contents: read
   pages: write
   id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   build:
@@ -32,11 +27,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build with VitePress
-        run: |
-          npm run docs:build
-          touch docs/.vitepress/dist/.nojekyll
+        run: npm run docs:build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-pages-artifact@v5  # 使用 v5 版本
         with:
           path: docs/.vitepress/dist
 
@@ -50,4 +43,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
