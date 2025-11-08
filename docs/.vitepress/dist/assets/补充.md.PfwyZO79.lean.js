@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,af as h}from"./chunks/framework.EDlhrJCl.js";const g=JSON.parse('{"title":"补充","description":"","frontmatter":{},"headers":[],"relativePath":"补充.md","filePath":"补充.md"}'),l={name:"补充.md"};function k(t,s,p,e,E,r){return n(),a("div",null,[...s[0]||(s[0]=[h("",35)])])}const y=i(l,[["render",k]]);export{g as __pageData,y as default};
