@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ae as t}from"./chunks/framework.DzfaCZ7A.js";const o=JSON.parse('{"title":"unocss","description":"","frontmatter":{},"headers":[],"relativePath":"unocss.md","filePath":"unocss.md"}'),h={name:"unocss.md"};function l(e,s,p,k,d,r){return n(),a("div",null,[...s[0]||(s[0]=[t("",43)])])}const g=i(h,[["render",l]]);export{o as __pageData,g as default};

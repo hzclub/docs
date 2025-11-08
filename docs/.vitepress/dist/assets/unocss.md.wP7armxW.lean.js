@@ -1,1 +1,0 @@
-import{_ as i,c as a,o as h,af as n}from"./chunks/framework.EDlhrJCl.js";const g=JSON.parse('{"title":"unocss","description":"","frontmatter":{},"headers":[],"relativePath":"unocss.md","filePath":"unocss.md"}'),l={name:"unocss.md"};function t(e,s,k,p,r,d){return h(),a("div",null,[...s[0]||(s[0]=[n("",43)])])}const c=i(l,[["render",t]]);export{g as __pageData,c as default};

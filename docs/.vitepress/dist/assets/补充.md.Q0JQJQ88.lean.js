@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as n,ae as h}from"./chunks/framework.DzfaCZ7A.js";const g=JSON.parse('{"title":"补充","description":"","frontmatter":{},"headers":[],"relativePath":"补充.md","filePath":"补充.md"}'),l={name:"补充.md"};function t(p,s,k,e,E,r){return n(),a("div",null,[...s[0]||(s[0]=[h("",35)])])}const y=i(l,[["render",t]]);export{g as __pageData,y as default};
